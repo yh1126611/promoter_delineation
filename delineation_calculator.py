@@ -1,7 +1,7 @@
 # There must be a file in the directory which has columns: 1. Distance and 2. Median MP, which should be entered as input argument.
 # Base on median MP of each distance from TSS, this script will calculate where whole promoter starts & ends.
 # Core promoter size can be inputted.
-# Usage: python3 speed_promoter_delineations_calculator_keep_arg.py <Median_file> <Core_size (Opt'l, 0 if not set)>
+# Usage: delineation_calculator_keep_arg.py <Median_file> <Core_size (Opt'l, 0 if not set)>
 
 import pandas as pd
 import numpy as np
